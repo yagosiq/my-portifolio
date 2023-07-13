@@ -40,7 +40,7 @@ const About = () => {
             </div>
             <div className='flex gap-x-8 items-center justify-center'>
               <button className='btn btn-lg'>Me Contate</button>
-              <a href="#" className='text-gradient btn-link'> Meu Portifólio</a>
+              <a href="https://github.com/yagosiq" className='text-gradient btn-link'> Meu Portifólio</a>
             </div>
           </motion.div>
 

@@ -13,7 +13,7 @@ const Header = () => {
     <header className='py-6'>
       <div className="container mx-auto">
         <div className='flex justify-between items-center'>
-          <a href="#">
+          <a href="https://github.com/yagosiq">
             <img className='w-20' src={Logo} alt='' />
           </a>
           <button className='btn btn-sm' onClick={downloadCV}>
