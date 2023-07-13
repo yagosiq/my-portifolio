@@ -35,7 +35,7 @@ const About = () => {
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
                 Ano de <br />
-                Experiencia
+                Experiência
               </div>
             </div>
             <div className='flex gap-x-8 items-center justify-center'>
