@@ -52,7 +52,11 @@ const Banner = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg'>Me contate</button>
+              <button className='btn btn-lg'>
+                <a href="https://wa.link/b9s087">
+                  Me contrata aí!
+                </a>
+              </button>
               <a href="https://github.com/yagosiq" className='text-gradient btn-link'>Meu Portifólio</a>
             </motion.div>
 
@@ -68,7 +72,7 @@ const Banner = () => {
               <a href="https://www.linkedin.com/in/yago-siqueira-a551ab1a8/">
                 <FaLinkedin />
               </a>
-              <a href="mailto:yago.yyaaggoo@gmail.com?subject=Assunto do email&body=Corpo do email">
+              <a href="mailto:yago.yyaaggoo@gmail.com?subject=Assunto do email&body= Entrar em contato :)">
                 <FaMailBulk />
               </a>
               <a href="https://wa.link/b9s087">
