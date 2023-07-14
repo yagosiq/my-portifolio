@@ -19,6 +19,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='text-[55px] font-bold leadind-[0.8] lg:text-[80px]'>
               YAGO<span> SIQUEIRA</span>
+              <br />
             </motion.h1>
             <motion.div
               variants={fadeIn('up', 0.4)}
