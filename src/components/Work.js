@@ -29,7 +29,7 @@ const Work = () => {
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               <div>
-                <a href="https://clone-fc-ysc30082002.netlify.app/">
+                <a href="https://exemplo.com/projeto-spotify">
                   <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt="" />
                   <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                     <span className='text-gradient'>Visitar Projeto</span>
@@ -52,7 +52,7 @@ const Work = () => {
               <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                 <div>
-                  <a href="#">
+                  <a href="https://exemplo.com/projeto-spotify">
                     <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt="" />
                     <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                       <span className='text-gradient'>Visitar Projeto</span>
