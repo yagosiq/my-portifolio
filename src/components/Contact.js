@@ -42,12 +42,11 @@ const Contact = () => {
               id='email'
             />
             <textarea
-              className='bg-transparent border-b py-10 outline-none w-full placeholder:text-white focus:border-accent transition-all mb-12'
+              className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all mb-12'
               placeholder='Mensagem'
               name='message'
               id='message'
             ></textarea>
-
             <button className='btn btn-lg'>
               Enviar mensagem
             </button>
