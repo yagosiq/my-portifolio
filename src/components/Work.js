@@ -11,9 +11,10 @@ const Work = () => {
       <div className="container mx-auto">
         <div className='flex flex-col lg:flex-row gap-x-10 text-center items-center'>
           <motion.div
-            variants={fadeIn('left', 0.3)}
+            variants={fadeIn('right', 0.3)}
             initial='hidden'
-            animate='show'
+            whileInView={'show'}
+            viewport={{ once: false, amount: 0.3 }}
             className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'
           >
             <div className='h2 leading-tight text-accent justify-center'>
@@ -28,7 +29,7 @@ const Work = () => {
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               <div>
-                <a href="https://www.youtube.com/watch?v=Hps-XPN1GeE">
+                <a href="https://clone-fc-ysc30082002.netlify.app/">
                   <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt="" />
                   <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                     <span className='text-gradient'>Visitar Projeto</span>
@@ -41,16 +42,17 @@ const Work = () => {
             </div>
           </motion.div>
           <motion.div
-            variants={fadeIn('right', 0.3)}
-            initial='hidden'
-            animate='show'
+           variants={fadeIn('left', 0.4)}
+           initial='hidden'
+           whileInView={'show'}
+           viewport={{ once: false, amount: 0.3 }}
             className='flex-1 flex flex-col gap-y-10'
           >
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                 <div>
-                  <a href="https://exemplo.com/projeto-facebook">
+                  <a href="#">
                     <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt="" />
                     <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                       <span className='text-gradient'>Visitar Projeto</span>
