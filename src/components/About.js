@@ -1,8 +1,6 @@
 import React from 'react';
-import { useInView } from 'react-intersection-observer';
 import { fadeIn } from '../variants';
 import { motion } from 'framer-motion'
-
 
 const About = () => {
   return (
