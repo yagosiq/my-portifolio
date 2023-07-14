@@ -18,6 +18,7 @@ const App = () => {
       <Services />
       <Work />
       <Contact />
+      <div className='h-[110px]'></div>
     </div>
   );
 };

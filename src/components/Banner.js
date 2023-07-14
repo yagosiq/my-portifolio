@@ -4,6 +4,7 @@ import { FaGithub, FaLinkedin, FaMailBulk, FaWhatsapp } from 'react-icons/fa';
 import { motion } from 'framer-motion'
 import { fadeIn } from '../variants';
 import { TypeAnimation } from 'react-type-animation';
+import { Link } from 'react-scroll';
 
 
 const Banner = () => {
@@ -58,7 +59,12 @@ const Banner = () => {
                   Me contrata aí!
                 </a>
               </button>
-              <a href="https://github.com/yagosiq" className='text-gradient btn-link'>Meu Portifólio</a>
+              <Link
+                className='text-gradient'
+                to='work'
+                activeClass='active'>
+                Mini projetos
+              </Link>
             </motion.div>
 
             <motion.div
