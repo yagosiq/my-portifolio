@@ -20,6 +20,8 @@ const Contact = () => {
           </motion.div>
 
           <motion.form
+            action="https://formsubmit.co/yago.yyaaggoo@gmail.com"
+            method="POST"
             variants={fadeIn('left', 0.4)}
             initial='hidden'
             whileInView={'show'}
@@ -28,19 +30,24 @@ const Contact = () => {
             <input
               className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
               type="text"
+              name='nome'
               placeholder='Nome'
               id='nome'
             />
             <input
               className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
               type="text"
+              name='email'
               placeholder='E-mail'
               id='email'
             />
             <textarea
               className='bg-transparent border-b py-10 outline-none w-full placeholder:text-white focus:border-accent transition-all mb-12'
               placeholder='Mensagem'
-              id="message"></textarea>
+              name='message'
+              id='message'
+            ></textarea>
+
             <button className='btn btn-lg'>
               Enviar mensagem
             </button>
