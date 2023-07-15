@@ -33,17 +33,20 @@ const Contact = () => {
               type='text'
               placeholder='Nome'
               id='nome'
+              name='nome'
             />
             <input
               className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
               type='email'
               placeholder='E-mail'
               id='email'
+              name='email'
             />
             <textarea
               className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all mb-12'
               placeholder='Mensagem'
               id='message'
+              name='mensagem'
             />
             <button className='btn btn-lg'>
               Enviar mensagem
