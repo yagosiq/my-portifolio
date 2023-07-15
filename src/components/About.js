@@ -1,6 +1,4 @@
 import React from 'react';
-import CountUp from 'react-countup';
-import { useInView } from 'react-intersection-observer';
 import { fadeIn } from '../variants';
 import { motion } from 'framer-motion'
 
