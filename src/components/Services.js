@@ -24,11 +24,6 @@ const services = [
     description: 'Tailwind CSS é um framework de CSS altamente configurável e utilitário que permite estilizar rapidamente elementos HTML com classes pré-definidas.',
     link: 'https://tailwindcss.com/'
   },
-  {
-    name: 'Node.JS',
-    description: 'Node.js é um ambiente de execução JavaScript no servidor que permite desenvolver aplicativos web e servidores backend com alta escalabilidade.',
-    link: 'https://nodejs.org/en/about'
-  }
 ]
 
 const Services = () => {
@@ -43,7 +38,7 @@ const Services = () => {
             wiewport={{ once: false, amount: 0.3 }}
             className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
             <h2 className='h2 text-accent mb-6'>Tecnologias</h2>
-            <h3 className='h3 max-w-[455px] mb-16'>Conheça algumas tecnologias em que tenho conhecimento</h3>
+            <h3 className='h3 max-w-[455px] mb-0 lg:mb-16 '>Conheça algumas tecnologias em que tenho conhecimento</h3>
           </motion.div>
           <motion.div
             variants={fadeIn('left', 0.5)}

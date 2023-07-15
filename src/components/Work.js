@@ -17,19 +17,24 @@ const Work = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'
           >
-            <div className='h2 leading-tight text-accent justify-center'>
-              <h2>Mini projetos</h2>
+            <div className='pb-10 pt-10'>
+              <h2 className='h2 leading-tight text-accent justify-center'>Mini projetos</h2>
+              <p className='pb-6'>Aqui estão três exemplos de páginas web desenvolvidas com o framework Tailwind, desenvolvidos durante o curso na plataforma Udemy. Clique no botão abaixo e entre em contato comigo!</p>
+              <button className='btn btn-lg'>
+                <a href="https://wa.link/b9s087"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Me contrata aí!
+                </a>
+              </button>
             </div>
-            <p>Aqui estão três exemplos de páginas web desenvolvidas com o framework Tailwind, desenvolvidos durante o curso na plataforma Udemy. Clique no botão abaixo e entre em contato comigo!</p>
-            <button className='btn btn-lg'>
-              <a href="https://wa.link/b9s087">
-                Me contrata aí!
-              </a>
-            </button>
+
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               <div>
-                <a href="https://exemplo.com/projeto-spotify">
+                <a href="https://master--ysc30082004.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt="" />
                   <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                     <span className='text-gradient'>Visitar Projeto</span>
@@ -42,17 +47,19 @@ const Work = () => {
             </div>
           </motion.div>
           <motion.div
-           variants={fadeIn('left', 0.4)}
-           initial='hidden'
-           whileInView={'show'}
-           viewport={{ once: false, amount: 0.3 }}
+            variants={fadeIn('left', 0.4)}
+            initial='hidden'
+            whileInView={'show'}
+            viewport={{ once: false, amount: 0.3 }}
             className='flex-1 flex flex-col gap-y-10'
           >
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                 <div>
-                  <a href="https://exemplo.com/projeto-spotify">
+                  <a href="https://cloneysc30082002.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer">
                     <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt="" />
                     <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                       <span className='text-gradient'>Visitar Projeto</span>
@@ -67,7 +74,9 @@ const Work = () => {
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               <div>
-                <a href="https://exemplo.com/projeto-spotify">
+                <a href="https://cloneysc30082003.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt="" />
                   <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                     <span className='text-gradient'>Visitar Projeto</span>

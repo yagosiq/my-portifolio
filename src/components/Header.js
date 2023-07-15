@@ -13,8 +13,8 @@ const Header = () => {
     <header className='py-6'>
       <div className="container mx-auto">
         <div className='flex justify-between items-center'>
-          <a href="https://yagosiqportifolio.netlify.app/">
-            <img className='w-20' src={Logo} alt="Logo da imagem"/>
+          <a href="https://yagosiqportifolio.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <img className='w-20' src={Logo} alt="Logo da imagem" />
           </a>
           <button className='btn btn-sm' onClick={downloadCV}>
             Download CV
