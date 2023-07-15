@@ -59,8 +59,7 @@ const Services = () => {
                       <BsArrowUpRight />
                     </a>
                     <a className='text-gradient text-sm'
-                      href={link}
-                      target="_blank" rel="noopener noreferrer">Veja sobre</a>
+                      href={link} target="_blank" rel="noopener noreferrer">Veja sobre</a>
                   </div>
                 </div>
               );
