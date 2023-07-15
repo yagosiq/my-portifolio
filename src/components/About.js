@@ -22,7 +22,7 @@ const About = () => {
             className='flex-1'>
             <h2 className='h2 text-accent'>Este sou eu</h2>
             <h3 className='h3 mb-4'>Sou desenvolvedor front-end, estou em busca de uma nova oportunidade.</h3>
-            <p>Nascido no Mato Grosso do Sul, minha paixão pela tecnologia floresceu desde os primeiros momentos em que tive contato com um computador. Nos momentos de lazer, busco explorar novos lugares e experiências, além de nadar e dedicar-me à leitura. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, e possuo um ano de experiência como desenvolvedor front-end.</p>
+            <p>Nascido no Mato Grosso do Sul, minha paixão pela tecnologia floresceu desde os primeiros momentos em que tive contato com um computador. Nos momentos de lazer, busco explorar novos lugares e experiências, além de nadar e ler bastante. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, e possuo um ano de experiência como desenvolvedor front-end.</p>
             <div className='flex gap-x-6 lg:gap-x-10 mb-8 mt-4 justify-center'>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
                 1

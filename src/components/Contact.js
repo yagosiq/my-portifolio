@@ -22,8 +22,7 @@ const Contact = () => {
           </motion.div>
 
           <motion.form
-            action="https://formsubmit.co/yago.yyaaggoo@gmail.com"
-            method="POST"
+            action="https://formsubmit.co/yago.yyaaggoo@gmail.com" method="POST"
             variants={fadeIn('left', 0.4)}
             initial='hidden'
             whileInView='show'
