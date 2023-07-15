@@ -2,13 +2,10 @@ import React from 'react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { fadeIn } from '../variants';
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'
+
 
 const About = () => {
-  const [ref] = useInView({
-    threshold: 0.5,
-  });
-
   return (
     <section className='section' id='about'>
       <div className="container mx-auto">
@@ -18,9 +15,9 @@ const About = () => {
             initial='hidden'
             whileInView={'show'}
             wiewport={{ once: false, amount: 0.3 }}
-            className='flex-1 h-[400px] mix-blend-lighten bg-top bg-about bg-contain bg-no-repeat'></motion.div>
+            className='flex-1 bg-about bg-contain bg-no-repeat h-[400px] mix-blend-lighten bg-top'></motion.div>
           <motion.div
-            variants={fadeIn('right', 0.5)}
+            variants={fadeIn('left', 0.5)}
             initial='hidden'
             whileInView={'show'}
             wiewport={{ once: false, amount: 0.3 }}
@@ -37,9 +34,19 @@ const About = () => {
                 Experiência
               </div>
             </div>
-            <div className='flex gap-x-4 items-center justify-center'>
-              <button className='btn btn-lg'>Me Contate</button>
-              <a href="https://github.com/yagosiq" className='text-gradient btn-link'>Meu Portfólio</a>
+            <div className='flex gap-x-8 items-center justify-center'>
+              <button className='btn btn-lg'>
+                <a href="https://wa.link/b9s087"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  Me contate!
+                </a>
+              </button>
+              <a href="https://github.com/yagosiq"
+                className='text-gradient btn-link'
+                target="_blank"
+                rel="noopener noreferrer">
+              Meu Portifólio</a>
             </div>
           </motion.div>
 

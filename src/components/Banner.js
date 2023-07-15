@@ -52,11 +52,16 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
               <button className='btn btn-lg'>
-                <a href="https://wa.link/b9s087">
+                <a href="https://wa.link/b9s087"
+                  target="_blank"
+                  rel="noopener noreferrer">
                   Me contrata aí!
                 </a>
               </button>
-              <a href="https://github.com/yagosiq" className='text-gradient btn-link'>
+              <a href="https://github.com/yagosiq"
+                target="_blank"
+                rel="noopener noreferrer"
+                className='text-gradient btn-link'>
                 Meu Portfólio
               </a>
             </motion.div>
@@ -66,16 +71,19 @@ const Banner = () => {
               whileInView='show'
               viewport={{ once: false, amount: 0.7 }}
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href="https://github.com/yagosiq">
+              <a href="https://github.com/yagosiq"
+                target="_blank" rel="noopener noreferrer">
                 <FaGithub />
               </a>
-              <a href="https://www.linkedin.com/in/yago-siqueira-a551ab1a8/">
+              <a href="https://www.linkedin.com/in/yago-siqueira-a551ab1a8/"
+                target="_blank" rel="noopener noreferrer">
                 <FaLinkedin />
               </a>
-              <a href="mailto:yago.yyaaggoo@gmail.com?subject=Assunto do email&body=Entrar em contato :)">
+              <a href="mailto:yago.yyaaggoo@gmail.com?subject=Assunto do email&body=Entrar em contato :)"
+                target="_blank" rel="noopener noreferrer">
                 <FaMailBulk />
               </a>
-              <a href="https://wa.link/b9s087">
+              <a href="https://wa.link/b9s087" target="_blank" rel="noopener noreferrer">
                 <FaWhatsapp />
               </a>
             </motion.div>

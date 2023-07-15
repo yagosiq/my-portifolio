@@ -55,10 +55,12 @@ const Services = () => {
                     <p className='font-secondary leading-tight'>{description}</p>
                   </div>
                   <div className='flex flex-col flex-1 items-center'>
-                    <a className='btn w-9 h-9 mb-[42px] flex justify-center items-center'  href={link}>
+                    <a className='btn w-9 h-9 mb-[42px] flex justify-center items-center' href={link}>
                       <BsArrowUpRight />
                     </a>
-                    <a className='text-gradient text-sm' href={link}>Veja sobre</a>
+                    <a className='text-gradient text-sm'
+                      href={link}
+                      target="_blank" rel="noopener noreferrer">Veja sobre</a>
                   </div>
                 </div>
               );
