@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+input:-webkit-autofill {
+  animation-name: onAutoFillStart;
+
+  transition: background-color 0s 86400s;
+}
+
+input:not(:-webkit-autofill) {
+  animation-name: onAutoFillCancel;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+}
+
+
+
 .btn {
   background: linear-gradient(
     92.23deg,

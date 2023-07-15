@@ -28,16 +28,16 @@ const Contact = () => {
             initial='hidden'
             whileInView='show'
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 flex border rounded-2xl flex-col gap-y-6 p-6 items-end'>
+            className='flex-1 flex border rounded-2xl flex-col gap-y-6 p-6 items-center lg:items-end'>
             <input
-              className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
+              className='bg-transparent input border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all '
               type='text'
               placeholder='Nome'
               id='nome'
             />
             <input
               className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
-              type='text'
+              type='email'
               placeholder='E-mail'
               id='email'
             />
