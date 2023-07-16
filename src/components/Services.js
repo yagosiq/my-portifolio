@@ -36,7 +36,7 @@ const Services = () => {
             initial='hidden'
             whileInView={'show'}
             wiewport={{ once: false, amount: 0.3 }}
-            className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
+            className='flex-1 lg:bg-services bg-contain h-[600px] lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
             <h2 className='h2 text-accent mb-6'>Tecnologias</h2>
             <h3 className='h3 max-w-[455px] mb-0 lg:mb-16 '>Conheça algumas tecnologias em que tenho conhecimento</h3>
           </motion.div>
