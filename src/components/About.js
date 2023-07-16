@@ -13,7 +13,7 @@ const About = () => {
             initial='hidden'
             whileInView={'show'}
             wiewport={{ once: false, amount: 0.3 }}
-            className='flex-1 bg-about bg-contain bg-no-repeat h-[600px] mix-blend-lighten bg-top'></motion.div>
+            className='flex-1 bg-about bg-contain bg-no-repeat h-[570px] mix-blend-lighten bg-top'></motion.div>
           <motion.div
             variants={fadeIn('left', 0.5)}
             initial='hidden'

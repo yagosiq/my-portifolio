@@ -7,19 +7,19 @@ import Img3 from '../assets/portifolio-img3.png';
 
 const Work = () => {
   return (
-    <section className='section' id='work'>
+    <section className='section py-16 lg:py-60' id='work'>
       <div className="container mx-auto">
-        <div className='flex flex-col lg:flex-row gap-x-10 text-center items-center'>
+        <div className='flex flex-col md:flex-row gap-x-10 text-center items-center'>
           <motion.div
             variants={fadeIn('right', 0.3)}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'
+            className='flex-1 flex flex-col gap-y-6 mb-10 md:mb-0'
           >
-            <div className='pb-10 pt-10'>
-              <h2 className='h2 leading-tight text-accent justify-center'>Mini projetos</h2>
-              <p className='pb-6'>Aqui estão três exemplos de páginas web desenvolvidas com o framework Tailwind, desenvolvidos durante o curso na plataforma Udemy. Clique no botão abaixo e entre em contato comigo!</p>
+            <div className='pb-6'>
+              <h2 className='text-2xl md:text-3xl lg:text-4xl text-accent'>Mini projetos</h2>
+              <p className='text-base md:text-lg lg:text-xl'>Aqui estão três exemplos de páginas web desenvolvidas com o framework Tailwind, desenvolvidos durante o curso na plataforma Udemy. Clique no botão abaixo e entre em contato comigo!</p>
               <button className='btn btn-lg'>
                 <a href="https://wa.link/b9s087"
                   target="_blank"
@@ -35,12 +35,12 @@ const Work = () => {
                 <a href="https://master--ysc30082004.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer">
-                  <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt="" />
+                  <img className='group-hover:scale-125 transition-all duration-500 md:w-80 lg:w-full' src={Img1} alt="" />
                   <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                    <span className='text-gradient'>Visitar Projeto</span>
+                    <span className='text-gradient text-sm md:text-base'>Visitar Projeto</span>
                   </div>
                   <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                    <span className='text-3xl text-white'>Clone - Amazon</span>
+                    <span className='text-xl md:text-2xl text-white'>Clone - Amazon</span>
                   </div>
                 </a>
               </div>
@@ -51,24 +51,22 @@ const Work = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 flex flex-col gap-y-10'
+            className='flex-1 flex flex-col gap-y-6'
           >
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
-              <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
-                <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-                <div>
-                  <a href="https://cloneysc30082002.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt="" />
-                    <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                      <span className='text-gradient'>Visitar Projeto</span>
-                    </div>
-                    <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                      <span className='text-3xl text-white'>Clone - Facebook</span>
-                    </div>
-                  </a>
-                </div>
+              <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+              <div>
+                <a href="https://cloneysc30082002.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <img className='group-hover:scale-125 transition-all duration-500 md:w-80 lg:w-full' src={Img2} alt="" />
+                  <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+                    <span className='text-gradient text-sm md:text-base'>Visitar Projeto</span>
+                  </div>
+                  <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+                    <span className='text-xl md:text-2xl text-white'>Clone - Facebook</span>
+                  </div>
+                </a>
               </div>
             </div>
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
@@ -77,12 +75,12 @@ const Work = () => {
                 <a href="https://cloneysc30082003.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer">
-                  <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt="" />
+                  <img className='group-hover:scale-125 transition-all duration-500 md:w-80 lg:w-full' src={Img3} alt="" />
                   <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                    <span className='text-gradient'>Visitar Projeto</span>
+                    <span className='text-gradient text-sm md:text-base'>Visitar Projeto</span>
                   </div>
                   <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                    <span className='text-3xl text-white'>Clone - Spotify</span>
+                    <span className='text-xl md:text-2xl text-white'>Clone - Spotify</span>
                   </div>
                 </a>
               </div>

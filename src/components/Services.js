@@ -35,8 +35,8 @@ const Services = () => {
             variants={fadeIn('right', 0.3)}
             initial='hidden'
             whileInView={'show'}
-            wiewport={{ once: false, amount: 0.3 }}
-            className='flex-1 lg:bg-services bg-contain h-[650px] lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
+            viewport={{ once: false, amount: 0.3 }}
+            className='flex-1 h-[300px] lg:h-[650px] mb-12 lg:mb-0 md:h-screen lg:bg-services bg-contain bg-no-repeat mix-blend-lighten'>
             <h2 className='h2 text-accent mb-6'>Tecnologias</h2>
             <h3 className='h3 max-w-[455px] mb-0 lg:mb-16 '>Conheça algumas tecnologias em que tenho conhecimento</h3>
           </motion.div>
@@ -44,27 +44,22 @@ const Services = () => {
             variants={fadeIn('left', 0.5)}
             initial='hidden'
             whileInView={'show'}
-            wiewport={{ once: false, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.3 }}
             className='flex-1'>
-            {services.map((service, index) => {
-              const { name, description, link } = service;
-              return (
-                <div className='border-b border-white/20 h-[146px] mb-[30px] flex' key={index}>
-                  <div className='max-w-[476px]'>
-                    <h4 className='text-[20px] tracking-wider font-primary font-semibold mb-4'>{name}</h4>
-                    <p className='font-secondary leading-tight'>{description}</p>
-                  </div>
-                  <div className='flex flex-col flex-1 items-center'>
-                    <a className='btn w-9 h-9 mb-[42px] flex justify-center items-center' href={link}>
-                      <BsArrowUpRight />
-                    </a>
-                    <a className='text-gradient text-sm'
-                      href={link} target="_blank" rel="noopener noreferrer">Veja sobre</a>
-                  </div>
+            {services.map((service, index) => (
+              <div className='border-b border-white/20 h-[146px] mb-[30px] flex' key={index}>
+                <div className='max-w-[476px]'>
+                  <h4 className='text-[20px] tracking-wider font-primary font-semibold mb-4'>{service.name}</h4>
+                  <p className='font-secondary leading-tight'>{service.description}</p>
                 </div>
-              );
-            })}
-
+                <div className='flex flex-col flex-1 items-center'>
+                  <a className='btn w-9 h-9 mb-[42px] flex justify-center items-center' href={service.link}>
+                    <BsArrowUpRight />
+                  </a>
+                  <a className='text-gradient text-sm' href={service.link} target="_blank" rel="noopener noreferrer">Veja sobre</a>
+                </div>
+              </div>
+            ))}
           </motion.div>
         </div>
       </div>
