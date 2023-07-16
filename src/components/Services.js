@@ -15,12 +15,12 @@ const services = [
     link: 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript'
   },
   {
-    name: 'React.JS',
+    name: 'React',
     description: 'React.js é uma biblioteca JavaScript usada para criar interfaces de usuário interativas e reativas, com reutilização de componentes e renderização eficiente.',
     link: 'https://react.dev/'
   },
   {
-    name: 'Tailwind.CSS',
+    name: 'Tailwind CSS',
     description: 'Tailwind CSS é um framework de CSS altamente configurável e utilitário que permite estilizar rapidamente elementos HTML com classes pré-definidas.',
     link: 'https://tailwindcss.com/'
   },
@@ -28,7 +28,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className='section' id='services'>
+    <section className='section py-60' id='services'>
       <div className="container mx-auto">
         <div className='flex flex-col lg:flex-row'>
           <motion.div
@@ -36,7 +36,7 @@ const Services = () => {
             initial='hidden'
             whileInView={'show'}
             wiewport={{ once: false, amount: 0.3 }}
-            className='flex-1 lg:bg-services bg-contain h-[600px] lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
+            className='flex-1 lg:bg-services bg-contain h-[650px] lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0'>
             <h2 className='h2 text-accent mb-6'>Tecnologias</h2>
             <h3 className='h3 max-w-[455px] mb-0 lg:mb-16 '>Conheça algumas tecnologias em que tenho conhecimento</h3>
           </motion.div>

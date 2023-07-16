@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className='py-6'>
+    <header className='py-2'>
       <div className="container mx-auto">
         <div className='flex justify-between items-center'>
           <a href="https://main--ysc30082003.netlify.app/">
