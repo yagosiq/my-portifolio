@@ -20,23 +20,28 @@ const services = [
     link: 'https://react.dev/'
   },
   {
-    name: 'Tailwind CSS',
+    name: 'Tailwind',
     description: 'Tailwind CSS é um framework de CSS altamente configurável e utilitário que permite estilizar rapidamente elementos HTML com classes pré-definidas.',
     link: 'https://tailwindcss.com/'
+  },
+  {
+    name: 'Typescript',
+    description: 'TypeScript é uma linguagem de programação de código aberto que adiciona tipagem estática ao JavaScript, tornando o código mais seguro e escalável.',
+    link: 'https://www.typescriptlang.org/docs/'
   },
 ]
 
 const Services = () => {
   return (
-    <section className='section py-60' id='services'>
-      <div className="container mx-auto">
+    <section className='section py-60 h-screen' id='services'>
+      <div className="container mx-auto h-screen lg:pt-10">
         <div className='flex flex-col lg:flex-row'>
           <motion.div
             variants={fadeIn('right', 0.3)}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 h-[300px] lg:h-[650px] mb-12 lg:mb-0 md:h-screen lg:bg-services bg-contain bg-no-repeat mix-blend-lighten'>
+            className='flex-1 h-[300px] lg:h-[800px] mb-12 lg:mb-0 md:h-screen lg:bg-services bg-contain bg-no-repeat mix-blend-lighten'>
             <h2 className='h2 text-accent mb-6'>Tecnologias</h2>
             <h3 className='h3 max-w-[455px] mb-0 lg:mb-16 '>Conheça algumas tecnologias em que tenho conhecimento</h3>
           </motion.div>

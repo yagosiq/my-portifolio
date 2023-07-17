@@ -10,7 +10,7 @@ const Banner = () => {
 
   return (
     <section className='min-h-[87vh] lg:min-h-[78vh] flex items-center' id='home'>
-      <div className="container mx-auto">
+      <div className="container mx-auto h-screen">
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
           <motion.div
             variants={fadeIn('up', 0.3)}
