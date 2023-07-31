@@ -6,7 +6,7 @@ const Contact = () => {
   const animationVariants = fadeIn('right', 0.3);
 
   return (
-    <section className='section pb-64 pt-20 lg:section' id='contact'>
+    <section className='section pb-64 pt-28 lg:section' id='contact'>
       <div className="container mx-auto">
         <div className='flex flex-col lg:flex-row'>
           <motion.div
