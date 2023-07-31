@@ -18,11 +18,7 @@ const App = () => {
       <Services />
       <Work />
       <Contact />
-<<<<<<< HEAD
-      <div className='h-[110px]'></div>
-=======
       <Footer />
->>>>>>> 8a1f338210c36d5660a9986c8b28ceb1c8f1ad1c
     </div>
   );
 };
