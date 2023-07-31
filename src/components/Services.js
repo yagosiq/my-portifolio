@@ -1,7 +1,7 @@
 import React from 'react';
-import { BsArrowUpRight } from 'react-icons/bs'
-import { motion } from 'framer-motion'
-import { fadeIn } from '../variants'
+import { BsArrowUpRight } from 'react-icons/bs';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../variants';
 
 const services = [
   {
@@ -29,19 +29,20 @@ const services = [
     description: 'TypeScript é uma linguagem de programação de código aberto que adiciona tipagem estática ao JavaScript, tornando o código mais seguro e escalável.',
     link: 'https://www.typescriptlang.org/docs/'
   },
-]
+];
 
 const Services = () => {
   return (
-    <section className='section py-60 h-screen' id='services'>
-      <div className="container mx-auto h-screen lg:pt-10">
+    <section className='section py-16 lg:py-60 mt-16 lg:mt-60' id='services'>
+      <div className="container mx-auto">
         <div className='flex flex-col lg:flex-row'>
           <motion.div
             variants={fadeIn('right', 0.3)}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1 h-[300px] lg:h-[800px] mb-12 lg:mb-0 md:h-screen lg:bg-services bg-contain bg-no-repeat mix-blend-lighten'>
+            className='flex-1 h-[300px] lg:h-[800px] mb-12 lg:mb-0 md:h-screen lg:bg-services bg-contain bg-no-repeat mix-blend-lighten'
+          >
             <h2 className='h2 text-accent mb-6'>Tecnologias</h2>
             <h3 className='h3 max-w-[455px] mb-0 lg:mb-16 '>Conheça algumas tecnologias em que tenho conhecimento</h3>
           </motion.div>
@@ -50,7 +51,8 @@ const Services = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className='flex-1'>
+            className='flex-1'
+          >
             {services.map((service, index) => (
               <div className='border-b border-white/20 h-[146px] mb-[30px] flex' key={index}>
                 <div className='max-w-[476px]'>
@@ -70,6 +72,6 @@ const Services = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Services;

@@ -10,7 +10,7 @@ const Banner = () => {
 
   return (
     <section className='min-h-[87vh] lg:min-h-[78vh] flex items-center' id='home'>
-      <div className="container mx-auto h-screen">
+      <div className="container mx-auto justify-center lg:h-screen">
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
           <motion.div
             variants={fadeIn('up', 0.3)}
@@ -75,12 +75,12 @@ const Banner = () => {
               <a href="https://wa.link/b9s087" target="_blank" rel="noopener noreferrer">
                 <FaWhatsapp />
               </a>
-              <button className='btn btn-sm'>
+            </motion.div>
+            <button className='btn btn-sm mt-10'>
                 <a href="https://wa.link/b9s087" target="_blank" rel="noopener noreferrer">
                   Me contrata aí!
                 </a>
               </button>
-            </motion.div>
           </motion.div>
           <motion.div
             variants={fadeIn('down', 0.5)}
