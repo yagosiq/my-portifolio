@@ -9,8 +9,8 @@ const Banner = () => {
   const animationVariants = fadeIn('up', 0.3);
 
   return (
-    <section className='min-h-[87vh] lg:min-h-[78vh] flex items-center' id='home'>
-      <div className="container mx-auto justify-center lg:h-screen">
+    <section className='min-h-[87vh] lg:min-h-[78vh]' id='home'>
+      <div className="container mx-auto lg:flex lg:items-center lg:h-screen">
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
           <motion.div
             variants={fadeIn('up', 0.3)}
