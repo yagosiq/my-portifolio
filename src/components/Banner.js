@@ -24,7 +24,7 @@ const Banner = () => {
               initial='hidden'
               whileInView='show'
               viewport={{ once: false, amount: 0.7 }}
-              className='text-[55px] font-bold leading-[0.8] lg:text-[80px]'
+              className='text-[55px] font-bold leading-[0.8] lg:text-[80px] lg:mb-6'
             >
               YAGO<span> SIQUEIRA</span>
               <br />
@@ -37,6 +37,7 @@ const Banner = () => {
               className='mb-6 text-[36px] lg:text-[35px] font-secondary font-semibold uppercase leading-[1]'
             >
               <span className='text-white mr-2'>Eu sou</span>
+              <br />
               <TypeAnimation
                 sequence={['UX/UI Design', 2000, 'Desenvolvedor Front-end', 2000]}
                 speed={50}
