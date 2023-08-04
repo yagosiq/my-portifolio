@@ -1,7 +1,6 @@
 import React from 'react';
 import { fadeIn } from '../variants';
-import { motion } from 'framer-motion'
-
+import { motion } from 'framer-motion';
 
 const About = () => {
   return (
@@ -13,7 +12,7 @@ const About = () => {
             initial='hidden'
             whileInView={'show'}
             wiewport={{ once: false, amount: 0.3 }}
-            className='flex-1 bg-about bg-contain bg-no-repeat h-[560px] mix-blend-lighten bg-top'></motion.div>
+            className='flex-1 bg-about bg-contain bg-no-repeat mix-blend-lighten bg-top lg:h-[560px]'></motion.div>
           <motion.div
             variants={fadeIn('left', 0.5)}
             initial='hidden'
@@ -44,7 +43,8 @@ const About = () => {
                 className='text-gradient btn-link'
                 target="_blank"
                 rel="noopener noreferrer">
-              Meu Portifólio</a>
+                Meu Portifólio
+              </a>
             </div>
           </motion.div>
 
