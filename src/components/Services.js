@@ -44,7 +44,7 @@ const Services = () => {
             className='flex-1 h-[300px] lg:h-[800px] mb-12 lg:mb-0 md:h-screen lg:bg-services bg-contain bg-no-repeat mix-blend-lighten'
           >
             <h2 className='h2 text-accent mb-6'>Tecnologias</h2>
-            <div className='border-b border-white/20 h-[170px] flex'>
+            <div className='border-b border-white/20 h-[170px] flex lg:border-none'>
             <h3 className='h3 max-w-[455px] mb-0 lg:mb-16 '>Conheça algumas tecnologias em que tenho conhecimento</h3>
             </div>
           </motion.div>
