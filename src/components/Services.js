@@ -54,7 +54,7 @@ const Services = () => {
             className='flex-1'
           >
             {services.map((service, index) => (
-              <div className='border-b border-white/20 h-[146px] mb-[30px] flex' key={index}>
+              <div className='border-b border-white/20 h-[170px] mb-[40px] flex' key={index}>
                 <div className='max-w-[476px]'>
                   <h4 className='text-[20px] tracking-wider font-primary font-semibold mb-4'>{service.name}</h4>
                   <p className='font-secondary leading-tight'>{service.description}</p>
