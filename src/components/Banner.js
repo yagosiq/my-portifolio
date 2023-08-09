@@ -4,9 +4,11 @@ import { FaGithub, FaLinkedin, FaMailBulk, FaWhatsapp } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import { TypeAnimation } from 'react-type-animation';
+import { useMediaQuery } from 'react-responsive';
 
 const Banner = () => {
   const animationVariants = fadeIn('up', 0.3);
+  const isLargeScreen = useMediaQuery({ minWidth: 1024 });
 
   return (
     <section className='min-h-[87vh] lg:min-h-[78vh] flex items-center' id='home'>
@@ -26,7 +28,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className='text-[55px] font-bold leading-[0.8] lg:text-[80px] lg:mb-6'
             >
-              YAGO<span> SIQUEIRA</span>
+              {isLargeScreen && <span>&#60;YAGO<span> SIQUEIRA/&#62;</span></span>}
+              {!isLargeScreen && 'YAGO SIQUEIRA'}
               <br />
             </motion.h1>
             <motion.div
