@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from '../assets/avatar.png';
+import Image2 from '../assets/services2.png';
 import { FaGithub, FaLinkedin, FaMailBulk, FaWhatsapp } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
@@ -90,9 +91,9 @@ const Banner = () => {
             variants={fadeIn('down', 0.5)}
             initial='hidden'
             whileInView='show'
-            className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'
+            className='hidden lg:flex flex-1 max-w-[300px] lg:max-w-[330px]'
           >
-            <img src={Image} alt="Avatar Yago" />
+            <img src={Image2} alt="Avatar Yago" />
           </motion.div>
         </div>
       </div>

@@ -19,7 +19,7 @@ const Work = () => {
           >
             <div className='pb-2'>
               <h2 className='text-2xl md:text-3xl lg:text-4xl text-accent pb-4'>Mini projetos</h2>
-              <p className='text-base md:text-lg lg:text-xl pb-4'>Aqui estão três exemplos de páginas web desenvolvidas com o framework Tailwind. Clique no botão abaixo e entre em contato comigo!</p>
+              <p className='text-base md:text-lg lg:text-xl pb-4'>Aqui estão três exemplos de páginas web estáticas desenvolvidas com o framework Tailwind. Clique no botão abaixo e entre em contato comigo!</p>
               <button className='btn btn-lg m-4'>
                 <a href="https://wa.link/b9s087"
                   target="_blank"
