@@ -18,8 +18,8 @@ const Work = () => {
             className='flex-1 flex flex-col gap-y-6 mb-10 md:mb-0 text-center items-center justify-center'
           >
             <div className='pb-2'>
-              <h2 className='text-2xl md:text-3xl lg:text-4xl text-accent'>Mini projetos</h2>
-              <p className='text-base md:text-lg lg:text-xl'>Aqui estão três exemplos de páginas web desenvolvidas com o framework Tailwind, desenvolvidos durante o curso na plataforma Udemy. Clique no botão abaixo e entre em contato comigo!</p>
+              <h2 className='text-2xl md:text-3xl lg:text-4xl text-accent pb-4'>Mini projetos</h2>
+              <p className='text-base md:text-lg lg:text-xl pb-4'>Aqui estão três exemplos de páginas web desenvolvidas com o framework Tailwind. Clique no botão abaixo e entre em contato comigo!</p>
               <button className='btn btn-lg m-4'>
                 <a href="https://wa.link/b9s087"
                   target="_blank"
@@ -32,7 +32,7 @@ const Work = () => {
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl lg:w-[400px] justify-center items-center'>
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               <div>
-                <a href="https://master--ysc30082004.netlify.app/"
+                <a href="https://ysc-tck-store.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer">
                   <img className='group-hover:scale-125 transition-all duration-500 md:w-80 lg:w-full' src={Img1} alt="" />
@@ -40,7 +40,7 @@ const Work = () => {
                     <span className='text-gradient text-sm md:text-base'>Visitar Projeto</span>
                   </div>
                   <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                    <span className='text-xl md:text-2xl text-white'>Clone - Amazon</span>
+                    <span className='text-xl md:text-2xl text-white'>Ticket Store</span>
                   </div>
                 </a>
               </div>
