@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from '../assets/avatar.png';
 import Image2 from '../assets/services2.png';
 import { FaGithub, FaLinkedin, FaMailBulk, FaWhatsapp } from 'react-icons/fa';
 import { motion } from 'framer-motion';
